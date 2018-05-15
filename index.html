@@ -1,12 +1,437 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Wiz Khalifa Fan Page</title>
+    <style>
+    body{
+        animation: backchange;
+        animation-duration: 9s;
+        animation-iteration-count: infinite;
+    }
+    .bio{
+        color: #FFF900;
+        font-size: 24px;
+    }
+    .w{
+        color: white;
+        position: relative;
+        animation: wchange;
+        animation-duration: 9s;
+        animation-iteration-count: infinite;
+        font-size: 99px;
+    }
+    .i{
+        color: white;
+        position: relative;
+        animation: ichange;
+        animation-duration: 9s;
+        animation-iteration-count: infinite;
+        font-size: 99px;
+    }
+    .z{
+        color: white;
+        position: relative;
+        animation: zchange;
+        animation-duration: 9s;
+        animation-iteration-count: infinite;
+        font-size: 99px;
+    }
+    .khalifa
+    {
+        color: lime;
+        font-size: 99px;
+    }
+    .up
+    {
+        position: relative;
+        animation: upchange;
+        animation-duration: 9s;
+        animation-iteration-count: infinite;
+    }
+    .down
+    {
+        position: relative;
+        animation: downchange;
+        animation-duration: 9s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes backchange {
+
+        0%{
+            background: linear-gradient(to top ,yellow , black);
+        }
+        50%{
+            background: radial-gradient(circle,yellow , black); 
+        }
+       
+        100%
+        {
+            background: linear-gradient(yellow , black);
+        }
+        
+    }
+    @keyframes wchange {
+
+0%{
+    left:-225px; 
+
+}
+50%{
+    left: 0px;
+
+}
+
+100%
+{
+    left:225px;
+   
+   
+}
+
+}
+@keyframes ichange {
+
+0%{
+    left: -225px; 
+
+}
+25%{
+    left: 225px;
+
+}
+50%{
+    left: 0px;
+
+}
+75%{
+    left: 225px;
+}
+
+100%
+{
+    left:-225px;
+   
+   
+}
+
+}
+@keyframes zchange {
+
+0%{
+    left: 225px; 
+
+}
+50%{
+    left: 0px;
+
+}
+
+100%
+{
+    left:-225px;
+   
+   
+}
+
+}
+@keyframes upchange {
+
+0%{
+    top: 100px; 
+
+}
+50%{
+    top: 0px;
+
+}
+
+100%
+{
+    top:-100px;
+   
+   
+}
+
+}
+@keyframes downchange {
+
+0%{
+    top: -100px; 
+
+}
+50%{
+    top: 0px;
+
+}
+
+100%
+{
+    top:100px;
+   
+   
+}
+
+}
+.back1{
+
+    background-color:#0C2DE8;
+    padding:50px;
+    position: relative;
+    height: 100%;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px solid #00FFFB;
+
+}
+.back2{
+
+background-color:#00E80D;
+padding:50px;
+position: relative;
+height: 100%;
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+border: 10px solid #FFF900;
+
+}
+.back3{
+
+background-color:#00E80D;
+padding:50px;
+position: relative;
+height: 100%;
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+border: 10px solid #FFF900;
+
+}
+.space{
+
+position: relative;
+padding: 50px;
+
+}
+* {
+  box-sizing: border-box;
+}
+
+.container {
+
+    position: relative;
+
+}
+
+
+.mySlides {
+
+    display: none;
+
+}
+
+.cursor {
+
+    cursor: pointer;
+
+}
+
+.prev,
+.next {
+
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+
+}
+
+
+.next {
+
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+.numbertext {
+
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+
+}
+
+.caption-container {
+
+    text-align: center;
+    background-color: #FFF900;
+    padding: 2px 16px;
+    color: white;
+    font-size: 33px;
+    color:#00FFFB;
+
+}
+
+.row:after {
+
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.column {
+
+    float: left;
+    width: 16.66%;
+
+}
+
+.demo {
+
+    opacity: 0.6;
+
+}
+
+.active,
+.demo:hover {
+
+    opacity: 1;
+
+}
+    </style>
 </head>
-<body>
-    <h1>Joshua Arnold Beckford</h1>
+<body style="text-align: center;">
+<div>
+    <h1 class="w">W</h1><h1 class="i">I</h1><h1 class="z">Z</h1><h1 class ="khalifa"><span class="up"> K |</span><span class="down"> h |</span><span class="up"> a |</span><span class="down"> l |</span><span class="up"> i |</span><span class="down"> f |</span><span class="up"> a |</span></h1>
+</div>
+
+<div class ="back1">
+
+<div class="container">
+
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 6</div>
+        <img src="https://news.olemiss.edu/wp-content/uploads/2017/08/Wiz-Khalifacrop.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">2 / 6</div>
+        <img src="https://cdn.viagogo.net/img/cat/20872/1/37.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">3 / 6</div>
+        <img src="https://img.discogs.com/j1KQN4wapQh7-VSR9LNiuFZB8Uk=/600x341/smart/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/A-614963-1518007967-9213.png.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">4 / 6</div>
+        <img src="https://420smokers.us/wp-content/uploads/2017/02/maxresdefault-4-1140x640.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">5 / 6</div>
+        <img src="http://jaguda.com/wp-content/uploads/2016/01/wiz_khalifa_perform_at_the_fader_fort_during_sxsw_2014_5_1920x12_15.jpg" style="width:100%">
+    </div>
+  
+    <div class="mySlides">
+      <div class="numbertext">6 / 6</div>
+        <img src="http://cdn.ppcorn.com/wp-content/uploads/sites/14/2015/02/Wiz-Khalifa-art-ppcorn.jpg" style="width:100%">
+    </div>
+  
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+  
+    <div class="row">
+      <div class="column">
+        <img class="demo cursor" src="https://news.olemiss.edu/wp-content/uploads/2017/08/Wiz-Khalifacrop.jpg" style="width:100%" onclick="currentSlide(1)" alt="Wiz Khalifa Fan Fage Facts!">
+      </div>
+      <div class="column"> 
+        <img class="demo cursor" src="https://cdn.viagogo.net/img/cat/20872/1/37.jpg" style="width:100%" onclick="currentSlide(2)" alt="Wiz Khalifa's Real Name is Cameron Jibril Thomaz">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://img.discogs.com/j1KQN4wapQh7-VSR9LNiuFZB8Uk=/600x341/smart/filters:strip_icc():format(jpeg):mode_rgb():quality(90)/discogs-images/A-614963-1518007967-9213.png.jpg" style="width:100%" onclick="currentSlide(3)" alt="Wiz Khalifa is 30 Years Old">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="https://420smokers.us/wp-content/uploads/2017/02/maxresdefault-4-1140x640.jpg" style="width:100%" onclick="currentSlide(4)" alt="Wiz Khalifa Grew Up As A Military Kid">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="http://jaguda.com/wp-content/uploads/2016/01/wiz_khalifa_perform_at_the_fader_fort_during_sxsw_2014_5_1920x12_15.jpg" style="width:100%" onclick="currentSlide(5)" alt="Wiz Khalifa's Net Worth is 45 Million">
+      </div> 
+      <div class="column">
+        <img class="demo cursor" src="http://cdn.ppcorn.com/wp-content/uploads/sites/14/2015/02/Wiz-Khalifa-art-ppcorn.jpg" style="width:100%" onclick="currentSlide(6)" alt="Wiz Khalifa's Parents Are OK With His Smoking Habits">
+      </div>
+    </div>
+</div>
+
+  <script>var slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}</script>
+<div class="space">
+    <div class = "back2">
+    <h3 style="font-size:26px;color: #0C2DE8">BIO</h3>
+    
+    <p class ="bio">Cameron Jibril Thomaz, known professionally as Wiz Khalifa, Born: September 8, 1987, Minot, North Dakota, United States, is an American rapper, singer-songwriter and actor. Wiz Khalifa's leadership and creative spark makes himself a fast rising star. He plays roles not only in a music career but branches off to perform in acting.Wiz Khalifa is one of today's leading rap artists. He moved around a lot as a kid because his father was in the military. At an early age, Khalifa discovered his love for making music.</p>
+</div>
+</div>
+<div class = "back3">
+    <iframe width="380" height="300" src="https://www.youtube.com/embed/WjK0n57Hwb0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</div>
+
+<footer style="color:whitesmoke">
+    <h1>Created By Joshua Arnold Beckford</h1>
+    <h2>All Rights Go To Wiz Khalifa</h2>
+</footer>
 </body>
 </html>
