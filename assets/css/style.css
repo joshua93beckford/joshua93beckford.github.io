@@ -169,7 +169,7 @@ hr{
 } 
 #img1{ 
     width: 300px;
-    height: 100px;
+    height: 110px;
     position: relative;
     grid-row: 1/2;
 }
