@@ -1,0 +1,497 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: #E9E9E9;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    
+}
+header{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding:40px;
+    background: #ffffff;
+    color: #777777;
+    border: 1px solid #cccccc;
+}
+#name{
+    position: relative;
+    float: left;
+    background: #4aaaa5;
+    padding: 25px;
+    top:-40px;
+    left: 247px;
+    border: 3px solid #4aaaa5;
+    font-weight: bold;
+    font-size: 22px;
+    padding-bottom: 29px;
+    color: #ffffff;
+
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    top: -20px;
+}
+#about{
+    position: relative;
+    float: right;
+    color: #777777;
+    right: 25.7rem; 
+}
+#portfolio{
+    position: relative;
+    float: right;
+    color: #777777;
+    right: 13.7rem;
+}
+#contact{
+    position: relative;
+    float: right;
+    color: #777777;
+    right: 2.7rem;
+}
+#aboutcontainer{
+    clear:both;
+    margin:auto;
+    width: 960px;
+    background: #ffffff;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: left;
+    border: 1px solid #dddddd;
+}
+#aboutcontainer p{
+    line-height: 1.75rem;
+    font-size: 1.125rem;
+    color: #777777;
+}
+#portfoliocontainer{
+    clear:both;
+    margin:auto;
+    text-align: center;
+    width: 960px;
+    background: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+}
+#contactcontainer{
+    clear:both;
+    margin:auto;
+    text-align: center;
+    width: 960px;
+    background: #ffffff;
+    padding: 30px;
+    padding-right:40px;
+    box-sizing: border-box;
+    border: 1px solid #dddddd;
+}
+h1{
+    text-align: left;
+    color: #4aaaa5;
+    font-size:26px;
+}
+hr{
+    display: block;
+    height: 10px;
+    border: 0;
+    border-top: 3px solid #cccccc;
+    margin: 1em 0;
+    padding: 0; 
+}
+#portfolioimg{
+    width:150px;
+    height:150px;
+    position: relative; 
+    float: left;
+    margin:0;
+    margin-top:0.3125rem;
+}
+#msgform{
+    text-align: left;
+    color: #777777;
+}
+.input{
+    width:100%;
+    color: #ffffff;
+    padding:5px;
+    
+}
+#inputname{
+    line-height: 1.8;
+}
+#msgbox{
+    text-align: left;
+    width:100%;
+    height:150px;
+}
+#submit{
+    margin: 10px;
+    margin-left:0px;
+    width: 10%;
+    border: 1px solid #4aaaa5;
+    padding:5px;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+#images{
+    position: relative;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-gap: 25px; 
+    
+}
+.image{
+    width: 300px;
+    height: 100%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+.image img{
+    width:100%;
+    height:100%;
+    
+
+}
+.imagetxt{
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 10%;
+    background: #4aaaa5;
+    box-sizing: border-box;
+    color: #ffffff;
+    
+} 
+#img1{ 
+    width: 300px;
+    height: 110px;
+    position: relative;
+    grid-row: 1/2;
+}
+#img2{ 
+    width: 300px;
+    height: 110px;
+    position: relative;
+    grid-row: 1/2;
+}
+#img3{ 
+    width: 300px;
+    height: 110px;
+    position: relative;
+    grid-row: 2/3;
+    
+}
+#img4{ 
+    width: 300px;
+    height: 110px;
+    position: relative;
+    grid-row: 2/3;
+}
+#img5{ 
+    width: 300px;
+    height: 110px;
+    position: relative;
+    grid-row: 3/4;
+}
+footer{
+    position: fixed;
+    background: #666666;
+    text-align: center;
+    border-top: 10px solid #4aaaa5;
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
+}
+#copy{
+    position: relative;
+    top: 10px;
+    font-size: 12px;
+    color: #ffffff;
+}
+@media screen and (max-width:980px)
+{
+    #name{
+        left:-1.5rem;
+        margin:0;
+    }
+    #aboutcontainer{
+        width:70%;
+        margin: auto 0.5rem;
+        margin-bottom: 30rem;
+}
+#portfoliocontainer{
+       
+    margin:auto 0.5rem;
+    width:70%;
+    margin-bottom: 6rem;
+}
+#contactcontainer{
+   
+    margin:auto 0.5rem;
+    width:70%;
+    margin-bottom: 30rem;
+}
+#about{
+    right:9rem;
+}
+#portfolio{
+    right:-3rem;
+}
+#contact{
+    right:-14rem;
+}
+#images{
+    position: relative;
+    display: grid;
+    grid-template-columns: 230px 230px;
+    grid-gap: 1rem; 
+    
+}
+.image{
+    width: 230px;
+    height: 100%;
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+.image img{
+    width:100%;
+    height:100%;
+    
+
+}
+.imagetxt{
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 10%;
+    background: #4aaaa5;
+    box-sizing: border-box;
+    color: #ffffff;
+    
+} 
+#img1{ 
+    width: 230px;
+    height: 150px;
+}
+#img2{ 
+    width: 230px;
+    height: 150px;
+}
+#img3{ 
+    width: 230px;
+    height: 150px;
+}
+#img4{ 
+    width: 230px;
+    height: 150px;
+}
+#img5{ 
+    width: 230px;
+    height: 150px;
+}
+}
+@media screen and (max-width:768px){
+   
+    #name{
+            left:-1.5rem;
+            margin:0;
+    }
+    #about{
+        right:9rem;
+    }
+    #portfolio{
+        right:-3rem;
+    }
+    #contact{
+        right:-14rem;
+    }
+    #aboutcontainer{
+            width:96%;
+            margin: auto 0.5rem;
+            margin-bottom: 30rem;
+    }
+    #aboutcontainer p {
+            font-size:1rem;
+    }
+    #portfoliocontainer{
+       
+        margin:auto 0.5rem;
+        width: 96%;
+        margin-bottom: 6rem;
+    }
+    #contactcontainer{
+       
+        margin:auto 0.5rem;
+        width: 96%;
+        margin-bottom: 30rem;
+    }
+    #images{
+        position: relative;
+        display: grid;
+        grid-template-columns: 330px 330px;
+        grid-gap: 1rem; 
+        
+    }
+    .image{
+        width: 330px;
+        height: 100%;
+        position: relative;
+        padding: 0;
+        margin: 0;
+    }
+    .image img{
+        width:100%;
+        height:100%;
+        
+    
+    }
+    .imagetxt{
+        margin: 0;
+        padding: 10px;
+        position: absolute;
+        width: 100%;
+        bottom: 10%;
+        background: #4aaaa5;
+        box-sizing: border-box;
+        color: #ffffff;
+        
+    } 
+    #img1{ 
+        width: 330px;
+        height: 250px;
+    }
+    #img2{ 
+        width: 330px;
+        height: 250px;
+    }
+    #img3{ 
+        width: 330px;
+        height: 250px;
+        
+    }
+    #img4{ 
+        width: 330px;
+        height: 250px;
+    }
+    #img5{ 
+        width: 330px;
+        height: 250px;
+    }
+}
+@media screen and (max-width:640px){
+    header{
+        display: static;
+        text-align: center;
+        left:0;
+        margin:0;
+        padding:0;
+        display: grid;
+        grid-template-columns:  repeat(3,1fr);
+        grid-template-rows: 2;
+    }
+    #name{
+        left:0;
+        margin:0;
+        top:0;
+        padding: 1rem;
+        grid-column: 1/4;
+        grid-row: 1;
+        
+    }
+    #about{
+        grid-row: 2;
+        grid-column: 1/2;
+        right: 0;
+        top: 0.1rem;
+    }
+    #portfolio{
+        grid-row: 2;
+        grid-column: 2/3;
+        right: 0;
+        top: 0.1rem;
+    }
+    #contact{
+        grid-row: 2;
+        grid-column: 3/4;
+        right: 0;
+        top: 0.1rem;
+    }
+    #aboutcontainer{
+        clear: both;
+        width:96%;
+        margin: 0.5rem;
+        margin-bottom: 10rem;
+    }
+    #aboutcontainer p {
+        font-size:1rem;
+    }
+    #portfolioimg{
+        width: 100%;
+        height:75%;
+    }
+    #portfoliocontainer{
+        width: 96%;
+        margin:0.5rem;
+        margin-bottom: 10rem;
+    }
+    #images{
+        position: relative;
+        display: grid;
+        grid-template-columns: 100%;
+        
+    }
+    .imagetxt{
+        margin: 0;
+        padding: 2rem;
+        position: absolute;
+        width: 100%;
+        bottom: 20%;
+        background: #4aaaa5;
+        box-sizing: border-box;
+        color: #ffffff;   
+    } 
+    .image{
+        width: 100%;
+        position: relative;
+        padding: 0;
+        margin: 0;
+    }
+    #img1{ 
+        width:100%;
+        height: 100%;
+        grid-row: 1/2;
+    }
+    #img2{ 
+        width:100%;
+        height: 100%;
+        grid-row: 2/3;
+    }
+    #img3{ 
+        width:100%;
+        height: 100%;
+        grid-row: 3/4;
+        
+    }
+    #img4{ 
+        width:100%;
+        height: 100%;
+        grid-row: 4/5;
+    }
+    #img5{ 
+        width:100%;
+        height: 100%;
+        grid-row: 5/6;
+    }
+    #contactcontainer{
+        width: 96%;
+        margin:0.5rem;
+        margin-bottom: 10rem;
+    }
+}
