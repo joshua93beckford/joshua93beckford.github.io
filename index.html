@@ -5,36 +5,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Portfolio Responsive</title>
-    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <title>Bootstrap Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <link href="./assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <a id="name" href="#">Joshua Arnold Beckford</a>
-        <a id="about" href="./index.html">About&nbsp;&nbsp;&nbsp;&nbsp;
-            <span>|</span>
-        </a>
-        <a id="portfolio" href="./portfolio.html">Portfolio&nbsp;&nbsp;&nbsp;&nbsp;<span>|</span>
-        </a>
-        <a id="contact" href="./contact.html">Contact</a>
-    </header>
-    <div id="aboutcontainer">
-        <h1>About Me</h1>
-        <hr>
-        <img id="portfolioimg" src="./assets/PortfolioPic.jpg" alt="200*200">
-        <p>Hello my name is Joshua Arnold Beckford. I have been programming since Grade 10. I am now 24 years old so I have
-            been programming for roughly 8 years. I started programming in with Visual Basic's, HTML and CSS. In Grade 12
-            I learned Java but my programming level really changed when I went to University where I took 3 Computer Science
-            courses. I took Java 1 & 2 and Introduction to C and Linux. I am also completing a University certificate coarse
-            in Full Stack Web Development.</p>
-        <br>
-        <p>Coding is my passion and my hobby I love to do it and live for it. I try my best to overcome and succeed.</p>
-        <br>
-        <p>I am really excited to be part of a friendly class lead by our instructor and TA's that are professionals in the
-            industry.
-        </p>
+    <nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+            <a id="name" class="navbar-brand" href="#">
+                Joshua Arnold Beckford
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./index.html">
+                            About
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./portfolio.html">
+                            Portfolio
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact.html">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container text-center">
+        <div id="aboutcontainer">
+            <h1>About Me</h1>
+            <hr>
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <img id="portfolioimg" src="./assets/PortfolioPic.jpg" alt="200*200">
+                    <p>Hello my name is Joshua Arnold Beckford. I have been programming since Grade 10. I am now 24 years old
+                        so I have been programming for roughly 8 years. I started programming in with Visual Basic's, HTML
+                        and CSS. In Grade 12 I learned Java but my programming level really changed when I went to University
+                        where I took 3 Computer Science courses. I took Java 1 & 2 and Introduction to C and Linux. I am
+                        also completing a University certificate coarse in Full Stack Web Development.</p>
+                    <br>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <p>Coding is my passion and my hobby I love to do it and live for it. I try my best to overcome and
+                            succeed.
+                        </p>
+                        <br>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                        <p>I am really excited to be part of a friendly class lead by our instructor and TA's that are professionals
+                            in the industry.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <footer>
         <p id="copy">Copyright &copy;</p>
