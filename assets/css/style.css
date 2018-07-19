@@ -85,7 +85,6 @@ body {
   }
 }
 
-
 /*
  * Cover
  */
@@ -96,7 +95,29 @@ body {
   padding: .75rem 1.25rem;
   font-weight: 700;
 }
-
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.centered1 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered2 {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.centered3 {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
 /*
  * Footer

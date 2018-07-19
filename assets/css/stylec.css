@@ -9,7 +9,9 @@ body {
     color: #5a5a5a;
   }
   
-  
+.navbar{
+    background-color: #333333;
+  }
   /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
   
@@ -68,6 +70,10 @@ body {
     letter-spacing: -.05rem;
   }
   
+  iframe{
+    width: 40rem;
+    height: 40rem;
+  }
   
   /* RESPONSIVE CSS
   -------------------------------------------------- */
