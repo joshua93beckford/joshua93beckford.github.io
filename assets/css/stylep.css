@@ -10,7 +10,7 @@ body {
   }
   
 .navbar{
-    background-color: #333333;
+    background-color: rgba(0,0,0,.4);
   }
   /* CUSTOMIZE THE CAROUSEL
   -------------------------------------------------- */
