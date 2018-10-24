@@ -33,11 +33,8 @@ body {
 
 h1{
   font-size: 420%;
-  -webkit-text-stroke: 0.1px #FD5F00;
-  font-family:'Monoton', cursive;
 }
 p{
   color:black;
   font-weight: bold;
-  font-family: 'Bungee Inline', cursive;
 }
