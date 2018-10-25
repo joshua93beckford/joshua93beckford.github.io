@@ -89,9 +89,8 @@ a:hover {
 }
 
 .centered2 {
-  
   position: absolute;
-  top: 90%;
+  top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -103,15 +102,24 @@ a:hover {
 }
 
 
-@media (min-width: 320px) {
+@media (max-width: 320px) {
   .masthead-brand {
     float: left;
   }
   .nav-masthead {
     float: right;
   }
-  .centered2 p{
-    width: 100%;
+
+  .rounded-circle{
+    position: relative;
+    opacity: 0.6;
+    width: 90%;
+    height: 90%;
+  }
+
+  .centered1{
+    position: relative;
+    top: 40%;
   }
 }
 

@@ -82,16 +82,6 @@ body {
   
   /* RESPONSIVE CSS
   -------------------------------------------------- */
-  
-  @media (min-width: 768px) {
-    .featurette-heading {
-      margin-top: 7rem;
-    }
-    iframe{
-      width: 728px;
-      height: 728px;
-    }
-  }
 
   @media (min-width: 320px) {
     /* Bump up size of carousel content */
@@ -110,4 +100,12 @@ body {
     }
   }
   
-  
+  @media (min-width: 768px) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+    iframe{
+      width: 728px;
+      height: 728px;
+    }
+  }
