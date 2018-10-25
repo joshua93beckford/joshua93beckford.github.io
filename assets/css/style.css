@@ -93,8 +93,8 @@ a:hover {
 .rounded-circle{
   position: relative;
   opacity: 0.6;
-  width: 90%;
-  height: 90%;
+  width: 70%;
+  height: 70%;
 }
 
 footer{
@@ -114,8 +114,8 @@ footer{
   .rounded-circle{
     position: relative;
     opacity: 0.6;
-    width: 80%;
-    height: 80%;
+    width: 60%;
+    height: 60%;
   }
 
 }
