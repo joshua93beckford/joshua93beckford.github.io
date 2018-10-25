@@ -73,9 +73,7 @@ a:hover {
   color: rgba(122, 40, 189, 0.70);
   transform: translate(0%, 10%);
 }
-.cover-container{
-transform: translate(0%,5%);
-}
+
 .centered1 h3{
   color: rgb(122, 40, 189);
 }
