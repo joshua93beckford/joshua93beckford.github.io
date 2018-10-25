@@ -88,8 +88,8 @@ body {
       margin-top: 7rem;
     }
     iframe{
-      width: 38em;
-      height: 48em;
+      width: 728px;
+      height: 728px;
     }
   }
 
@@ -105,8 +105,8 @@ body {
       font-size: 50px;
     }
     iframe{
-      width: 26em;
-      height: 26em;
+      width: 280px;
+      height: 280px;
     }
   }
   
