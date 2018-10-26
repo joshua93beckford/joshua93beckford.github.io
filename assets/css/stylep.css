@@ -24,7 +24,7 @@ body {
   }
   /* Since positioning the image, we need to help out the caption */
   .carousel-caption {
-    bottom:0;
+    bottom:1.5em;
     z-index: 10;
     color: #777;
   }
