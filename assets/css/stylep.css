@@ -94,18 +94,10 @@ body {
     .featurette-heading {
       font-size: 50px;
     }
-    iframe{
-      width: 280px;
-      height: 280px;
-    }
   }
   
   @media (min-width: 768px) {
     .featurette-heading {
       margin-top: 7rem;
-    }
-    iframe{
-      width: 728px;
-      height: 728px;
     }
   }
